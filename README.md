@@ -7,3 +7,13 @@ Tech Stack
 🔴 Java
 🔴 Swing
 🔴 AWT
+
+Project snips
+![image](https://github.com/subhadeephazra/NotePad/assets/124555668/6648cf0f-3b7c-4e96-8d4f-fa5cdba4f308)
+
+![image](https://github.com/subhadeephazra/NotePad/assets/124555668/529e65fa-7574-4166-a4b6-e8937d348276)
+
+![image](https://github.com/subhadeephazra/NotePad/assets/124555668/5dc4f476-3f4d-48f6-bf91-61a2752ff5f4)
+
+
+
