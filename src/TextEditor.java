@@ -34,6 +34,10 @@ public class TextEditor extends JFrame implements ActionListener
 
         //INITIALISING TEXT AREA
         textArea = new JTextArea();
+        mainframe.setLocationRelativeTo(null);
+        mainframe.setResizable(true);
+        textArea.setLineWrap(true);
+        textArea.setWrapStyleWord(true);//FOR AUTO CHANGE TO NEXT LINE
 
         //INITIALISE AND ADDING FILE MENU ITEMS
         New_Window = new JMenuItem("New Window");
@@ -133,6 +137,8 @@ public class TextEditor extends JFrame implements ActionListener
         panel.setBorder(new EmptyBorder(5,5,5,5));
         panel.setLayout(new BorderLayout(0,0));
 
+
+
       //ADDING TEXTAREA TO THE PANEL
         panel.add(textArea,BorderLayout.CENTER);
 
@@ -145,10 +151,15 @@ public class TextEditor extends JFrame implements ActionListener
       //ADDING PANEL TO MAINFRAME
       mainframe.add(panel);
 
-      mainframe.setBounds(300,150,600,350);
+     // mainframe.setBounds(300,150,600,350);
+      mainframe.setSize(600,300);
+      //mainframe.setLocation(300,150);
+      mainframe.setLocationRelativeTo(null);
+      mainframe.setResizable(true);
       mainframe.setTitle("Text Editor");
       mainframe.setVisible(true);
       mainframe.setLayout(null);
+
 
     }
 
